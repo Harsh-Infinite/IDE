@@ -1,8 +1,8 @@
-# Polaris IDE - Project Guide & Learning Path
+# IDE - Project Guide & Learning Path
 
 ## Project Overview
 
-**Polaris** is a cloud-based IDE inspired by Cursor AI, built as part of a YouTube tutorial series. It provides:
+This **IDE** is a cloud-based, AI-powered development environment inspired by tools like Cursor. It’s built from scratch with a real-world architecture (auth, realtime DB, background jobs, AI workflows, editor extensions). It provides:
 
 - Real-time collaborative code editing
 - AI-powered suggestions and quick edit (Cmd+K)
@@ -34,7 +34,7 @@
 
 ## Learning Path (Recommended Order)
 
-### Phase 1: Foundation (Chapters 1–7)
+### Phase 1: Foundation
 
 1. **Project Setup & UI**
    - `package.json`, `next.config.ts`, `tailwind.config.ts`
@@ -64,7 +64,7 @@
    - `src/app/page.tsx`
    - `src/features/projects/components/*`
 
-### Phase 2: File System & Editor (Chapters 8–10)
+### Phase 2: File System & Editor
 
 7. **IDE Layout**
    - `src/app/projects/[projectId]/layout.tsx`
@@ -81,7 +81,7 @@
    - `src/features/editor/extensions/*`
    - `src/features/editor/store/use-editor-store.ts`
 
-### Phase 3: AI Features (Chapters 11–12)
+### Phase 3: AI Features
 
 10. **AI Suggestions & Quick Edit**
     - `src/app/api/suggestion/route.ts`
@@ -95,7 +95,7 @@
     - `src/features/conversations/inngest/process-message.ts`
     - `src/features/conversations/inngest/tools/*`
 
-### Phase 4: Advanced (Chapters 13–16)
+### Phase 4: Advanced
 
 12. **AI Agent Tools** – file read/write/create/delete via Inngest
 13. **WebContainer & Preview** – `src/features/preview/*`

@@ -95,7 +95,7 @@ export const Navbar = ({
                         font.className,
                       )}
                     >
-                      Polaris
+                      IDE
                     </span>
                   </Link>
                 </Button>
